@@ -1,0 +1,29 @@
+@import 'constants/variables.scss';
+
+.pill {
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0.8rem;
+    border-radius: 20px;
+    background-color: $pill-grey;
+    color: $font-grey;
+    margin-right: 5px;
+}
+
+.delete {
+    margin-left: 0.5rem;
+    cursor: pointer;
+
+    &::before {
+        content: 'x';
+        font-weight: 600;
+        position: relative;
+        top: -1px;
+    }
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

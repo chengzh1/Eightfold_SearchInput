@@ -1,10 +1,10 @@
-import SearchInput from './components/SearchInput';
+import AutocompleteInput from './components/AutocompleteInput';
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <SearchInput />
+      <AutocompleteInput />
     </div>
   );
 }
